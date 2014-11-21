@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "background-colorpeek",
-  "version": "1.0",
-  "description": "Get every background-color from the current tab.",
+  "name": "MAdKiller",
+  "version": "0.1",
+  "description": "Send Page to a server and test for malvertising",
 
   "browser_action": {
     "default_icon": "icon19.png"
@@ -14,5 +14,8 @@
     "persistent": false
   },
   
-  "permissions": ["<all_urls>"]
+  "permissions": [
+      "<all_urls>",
+      "tabs"
+  ]
 }
